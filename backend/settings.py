@@ -42,11 +42,11 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "resume.apps.ResumeConfig",
     "rest_framework",
     "corsheaders",
     "ckeditor",
-    "tinymce",
-    "resume.config.ResumeConfig",
+    "tinymce"
 ]
 
 MIDDLEWARE = [

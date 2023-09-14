@@ -7,7 +7,7 @@ const Services = () => {
 
   useEffect(() => {
     axios
-    .get("https://ayushsaraf.vercel.app/api/allServices-api/")
+    .get("/api/allServices-api/")
     .then((res) => {
       setServicesDetails(res.data);
       console.log(res.data);

@@ -11,7 +11,7 @@ const Intro = () => {
   useEffect(() => {
 
     axios
-      .get("/api/home-api/")
+      .get("https://ayushbackend.vercel.app/api/home-api/")
       .then((res) => {
         setHomeDetails(res.data);
         // console.log(res.data);
@@ -21,7 +21,7 @@ const Intro = () => {
       });
 
     axios
-      .get("/api/links-api/")
+      .get("https://ayushbackend.vercel.app/api/links-api/")
       .then((res) => {
         setContact2Details(res.data);
         // console.log(res.data);

@@ -47,7 +47,7 @@ const Projects = () => {
 
   useEffect(() => {
     axios
-    .get("/api/projects-api/")
+    .get("https://ayushbackend.vercel.app/api/projects-api/")
     .then((res) => {
         setProjectsDetails(res.data);
     })

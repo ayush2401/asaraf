@@ -9,8 +9,13 @@ const Intro = () => {
   const [contacts1Details, setContact2Details] = useState();
 
   useEffect(() => {
+
+    fetch("http://127.0.0.1:8000/api/home-api/").then(
+      res=> res.json()).then(
+      data=> console.log(data))
+    
     axios
-      .get("/api/home-api/")
+      .get("http://127.0.0.1:8000/api/home-api/")
       .then((res) => {
         setHomeDetails(res.data);
         // console.log(res.data);

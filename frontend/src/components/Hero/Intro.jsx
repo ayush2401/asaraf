@@ -10,7 +10,7 @@ const Intro = () => {
 
   useEffect(() => {
     axios
-      .get("http://127.0.0.1:8000/api/home-api/")
+      .get("/api/home-api/")
       .then((res) => {
         setHomeDetails(res.data);
         // console.log(res.data);
@@ -20,7 +20,7 @@ const Intro = () => {
       });
 
     axios
-      .get("http://127.0.0.1:8000/api/links-api/")
+      .get("/api/links-api/")
       .then((res) => {
         setContact2Details(res.data);
         // console.log(res.data);

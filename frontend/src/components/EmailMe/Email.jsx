@@ -28,7 +28,7 @@ const Email = (e) => {
   // const img_300 = "http://127.0.0.1:8000";
   useEffect(() => {
     axios
-      .get("http://127.0.0.1:8000/api/contacts-api/")
+      .get("https://ayushsaraf.vercel.app/api/contacts-api/")
       .then((res) => {
         setContactDetails(res.data);
       })

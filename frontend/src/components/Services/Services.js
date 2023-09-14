@@ -7,7 +7,7 @@ const Services = () => {
 
   useEffect(() => {
     axios
-    .get("http://127.0.0.1:8000/api/allServices-api/")
+    .get("hhttps://ayushsaraf.vercel.app/api/allServices-api/")
     .then((res) => {
       setServicesDetails(res.data);
       console.log(res.data);

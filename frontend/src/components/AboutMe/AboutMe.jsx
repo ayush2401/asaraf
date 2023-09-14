@@ -10,7 +10,7 @@ const AboutMe = () => {
 
   useEffect(() => {
     axios
-      .get("http://127.0.0.1:8000/api/aboutme-api/")
+      .get("https://ayushsaraf.vercel.app/api/aboutme-api/")
       .then((res) => {
         setAboutMe(res.data);
         // console.log(res.data);

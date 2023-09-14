@@ -32,7 +32,7 @@ const Progress = () => {
 
   useEffect(() => {
     axios
-    .get("http://127.0.0.1:8000/api/lang-icons-api/")
+    .get("https://ayushsaraf.vercel.app/api/lang-icons-api/")
     .then((res) => {
         setIcons(res.data);
     })

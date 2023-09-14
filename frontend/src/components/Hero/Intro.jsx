@@ -10,12 +10,8 @@ const Intro = () => {
 
   useEffect(() => {
 
-    fetch("http://127.0.0.1:8000/api/home-api/").then(
-      res=> res.json()).then(
-      data=> console.log(data))
-    
     axios
-      .get("http://127.0.0.1:8000/api/home-api/")
+      .get("https://ayushsaraf.vercel.app/api/home-api/")
       .then((res) => {
         setHomeDetails(res.data);
         // console.log(res.data);
@@ -25,7 +21,7 @@ const Intro = () => {
       });
 
     axios
-      .get("/api/links-api/")
+      .get("https://ayushsaraf.vercel.app/api/links-api/")
       .then((res) => {
         setContact2Details(res.data);
         // console.log(res.data);

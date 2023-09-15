@@ -21,7 +21,7 @@ function App() {
     if ($("#preloader").length) {
       $("#preloader")
         .delay(100)
-        .fadeOut("fast", function () {
+        .fadeOut(1, function () {
           $(this).remove();
         });
     }

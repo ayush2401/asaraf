@@ -10,7 +10,7 @@ const AboutMe = () => {
 
   useEffect(() => {
     axios
-      .get("https://ayushbackend.vercel.app/api/aboutme-api/")
+      .get("http://16.171.193.25/api/aboutme-api")
       .then((res) => {
         setAboutMe(res.data);
         // console.log(res.data);

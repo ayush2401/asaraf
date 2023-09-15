@@ -4,6 +4,8 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import $ from "jquery";
 import axios from "axios";
+import BASE_URL from "../Api/Api";
+axios.defaults.baseURL = BASE_URL
 
 var nav = $("body");
 

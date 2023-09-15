@@ -1,6 +1,8 @@
 import "./Services.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import BASE_URL from "../Api/Api";
+axios.defaults.baseURL = BASE_URL
 
 const Services = () => {
   const [servicesDetails, setServicesDetails] = useState();

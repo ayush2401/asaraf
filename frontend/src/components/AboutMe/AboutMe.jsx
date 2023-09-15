@@ -4,6 +4,8 @@ import decor1 from "../../images/decoration/dots-1.png";
 import reactagle from "../../images/decoration/Rectangle-7.png";
 import shady from "../../images/decoration/dots.png";
 import axios from "axios";
+import BASE_URL from "../Api/Api";
+axios.defaults.baseURL = BASE_URL
 
 const AboutMe = () => {
   const [aboutMe, setAboutMe] = useState();

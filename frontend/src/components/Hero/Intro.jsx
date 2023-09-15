@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import decor3 from "../../images/decoration/Group-31.png";
 import "./Intro.css";
 import axios from "axios";
+import BASE_URL from "../Api/Api";
+axios.defaults.baseURL = BASE_URL
 
 const Intro = () => {
 

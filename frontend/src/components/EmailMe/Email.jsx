@@ -3,6 +3,9 @@ import "./Email.css";
 import axios from "axios";
 import emailjs from "@emailjs/browser";
 
+import BASE_URL from "../Api/Api";
+axios.defaults.baseURL = BASE_URL
+
 const Email = (e) => {
   const [message,setMessage] = useState('')
   const form = useRef();

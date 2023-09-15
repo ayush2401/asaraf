@@ -41,7 +41,7 @@ const AboutMe = () => {
               </div>
               <div className="abouMe-row">
                 <div className=" col-lg-6 col-md-5 col-sm-12 about-img" data-aos="fade-up-right">
-                  <img src="https://drive.google.com/uc?id=1B97-7cbBT2HhLUqHh5bvfckaGLsudQmj" alt="" />
+                  <img src="https://drive.google.com/uc?id=1MzVrAhuwlFgiXwEqkjnlMhYBXHjooi6t" alt="" />
                   {/* <img src={`${img_300}${details.about_avatar}`} alt="" /> */}
                 </div>
                 <div className=" col-lg-6 col-md-7  col-sm-12 about_myinfo" data-aos="fade-up-left">

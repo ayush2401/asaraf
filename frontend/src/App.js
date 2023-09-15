@@ -20,7 +20,7 @@ function App() {
   $(document).ready(function () {
     if ($("#preloader").length) {
       $("#preloader")
-        .delay(1000)
+        .delay(2000)
         .fadeOut(2000, function () {
           $(this).remove();
         });

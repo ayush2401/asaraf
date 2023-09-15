@@ -41,7 +41,7 @@ const AboutMe = () => {
               </div>
               <div className="abouMe-row">
                 <div className=" col-lg-6 col-md-5 col-sm-12 about-img" data-aos="fade-up-right">
-                  <img src="https://drive.google.com/uc?id=1MzVrAhuwlFgiXwEqkjnlMhYBXHjooi6t" alt="" />
+                  <img src="https://drive.google.com/uc?id=1Dv1617A5Ogg7bbKsgTkIUCgBTdB0OQT9" alt="" />
                   {/* <img src={`${img_300}${details.about_avatar}`} alt="" /> */}
                 </div>
                 <div className=" col-lg-6 col-md-7  col-sm-12 about_myinfo" data-aos="fade-up-left">
@@ -61,7 +61,7 @@ const AboutMe = () => {
 
                   <div className="itscv">
                     <a
-                      href="https://drive.google.com/file/d/1A3PUWn2EOjWRf4XH9HyCE14rNnzZ77vV/view?usp=drive_link"
+                      href="https://drive.google.com/uc?id=1MzVrAhuwlFgiXwEqkjnlMhYBXHjooi6t"
                       download="RESUME.pdf"
                       target="_blank"
                       rel="noopener noreferrer"

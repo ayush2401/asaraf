@@ -7,7 +7,7 @@ const Services = () => {
 
   useEffect(() => {
     axios
-    .get("http://16.171.193.25/api/allServices-api")
+    .get("/api/allServices-api")
     .then((res) => {
       setServicesDetails(res.data);
       console.log(res.data);

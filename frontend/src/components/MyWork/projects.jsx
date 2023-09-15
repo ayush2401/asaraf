@@ -47,7 +47,7 @@ const Projects = () => {
 
   useEffect(() => {
     axios
-    .get("http://16.171.193.25/api/projects-api")
+    .get("/api/projects-api")
     .then((res) => {
         setProjectsDetails(res.data);
     })

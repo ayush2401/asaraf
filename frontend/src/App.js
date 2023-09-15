@@ -17,11 +17,11 @@ import { useEffect } from "react";
 
 function App() {
   
-  $(window).on("load", function () {
+  $(document).ready(function () {
     if ($("#preloader").length) {
       $("#preloader")
         .delay(100)
-        .fadeOut(1, function () {
+        .fadeOut(2000, function () {
           $(this).remove();
         });
     }

@@ -32,7 +32,7 @@ const Progress = () => {
 
   useEffect(() => {
     axios
-    .get("http://16.171.193.25/api/lang-icons-api")
+    .get("/api/lang-icons-api")
     .then((res) => {
         setIcons(res.data);
     })
